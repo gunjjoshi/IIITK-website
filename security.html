@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        footer{
+            position: relative;
+            top: 500px;
+        }
+        .pdfbox{
+            background-color: gray;
+            border: 2px solid gray;
+            color: white;
+            width: 140px;
+            height: 40px;
+            padding-top: 18px;
+            padding-left: 5px;
+            border-radius: 19px;
+            
+        }
+        footer{
+            width: 1335px;
+            
+        }
+        .pdfflex{
+            display: flex;
+            justify-content: space-between;
+            width: 330px;
+            margin-left: 50px;
+        }
+        h3{
+            font-size: 43px; color:rgb(98, 255, 0);
+            width: 500px;
+            margin-left: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top">
+            <img src="Pictures/iiitlogo.png" alt="Logo unavailable" id="logo">
+            <div class="headname">
+                <h1 id="hindihead">
+                    भारतीय सूचना प्रौद्योगिकी संस्थान कोट्टायम
+                    <h1 id="enghead">
+                        Indian Institute of Information Technology Kottayam
+                    </h1>
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Home</button>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Why&nbspIIITK</button>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Institute<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="governance.html" target="__blank">Governance</a>
+                <a href="admission.html" target="__blank">Admission</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Courses<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="cse.html" target="__blank">B&nbspTech&nbsp(CSE)</a>
+                <a href="ece.html" target="__blank">B&nbspTech&nbsp(ECE)</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">People<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="administration.html" target="__blank">Administration</a>
+                <a href="hod.html"__blank">Head&nbspof&nbspDepartment</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Facilities<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="hostel.html" target="__blank">Hostel</a>
+                <a href="security.html" target="__blank">Security</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">IIC&nbsp&&nbspClubs<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="innovation.html" target="__blank">Innovation&nbspCell</a>
+                
+                <a href="gallery.html" target="__blank">Gallery</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Research<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="facultyresearch.html"
+                    target="__blank">Faculty&nbspResearch&nbspPapers</a>
+                <a href="studentresearch.html"
+                    target="__blank">UG&nbspStudent&nbspResearch&nbspPapers</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="placement.html" style="color: white;">Placement</a> </button>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="recruiters.html" style="color: white;">Recruiters&nbsp<br>Corner<br></a></button>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="media.html" style="color: white;">@Media</a> </button>
+            
+        </div>
+
+    </div>
+    <div id="navbar2">
+        <div class="dropdown">
+            <button class="dropbtn">Home</button>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Why&nbspIIITK</button>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Institute<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="governance.html" target="__blank">Governance</a>
+                <a href="admission.html" target="__blank">Admission</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Courses<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="cse.html" target="__blank">B&nbspTech&nbsp(CSE)</a>
+                <a href="ece.html" target="__blank">B&nbspTech&nbsp(ECE)</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">People<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="administration.html" target="__blank">Administration</a>
+                <a href="hod.html"__blank">Head&nbspof&nbspDepartment</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Facilities<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="hostel.html" target="__blank">Hostel</a>
+                <a href="security.html" target="__blank">Security</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">IIC&nbsp&&nbspClubs<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="innovation.html" target="__blank">Innovation&nbspCell</a>
+                
+                <a href="gallery.html" target="__blank">Gallery</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Research<div class="triangle-down"></div></button>
+            <div class="dropdown-content">
+                <a href="facultyresearch.html"
+                    target="__blank">Faculty&nbspResearch&nbspPapers</a>
+                <a href="studentresearch.html"
+                    target="__blank">UG&nbspStudent&nbspResearch&nbspPapers</a>
+                
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="placement.html" style="color: white;">Placement</a> </button>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="recruiters.html" style="color: white;">Recruiters&nbsp<br>Corner<br></a></button>
+            
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><a href="media.html" style="color: white;">@Media</a> </button>
+            
+        </div>
+
+    </div>
+
+    <h3>SECURITY</h3>
+    <table>
+        <tbody><tr>
+          <th style="width:0.1%">SL.No.</th>
+          <th style="width:6%">Name of Faculty</th>
+          <th style="width:5%">Achievement Type</th>
+          <th style="width:27%">Details</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>Mentor of Change - AIM (NITI Aayog - MentorIndia Program), India</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>Visiting Professor at TUM-Germany 2016-17, 2017-18</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>Guided three Ph.D. thesis; Four ongoing Ph.D. thesis</td>
+        </tr>
+      <tr>
+          <td>4</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>Eight Research Grants Awardee (Two from Germany; Five from DST, India, and one from AIM-NITI Aayog-Phase II)</td>
+        </tr>
+      <tr>
+          <td>5</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>M.E. Anna University Rank Holder 2002-2004 Batch</td>
+        </tr>
+      <tr>
+           <td>6</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>Visiting Scientist, TUM, Germany - Sponsored by TUM, Germany - June 2012, March 2015, May 2016</td>
+        </tr>
+      <tr>
+           <td>7</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>Training Scholarship Awardee - Oct 2012 - Sponsored by CIM-GIZ and TUM, Germany</td>
+        </tr>
+      <tr>
+           <td>8</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>Dagstuhl Seminar Participant - Sep-Oct 2013 - Sponsored by the Dagstuhl, Germany</td>
+        </tr>
+      <tr>
+           <td>9</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>International Travel Grant Awardee (2014) for presenting a paper in ICC2014 - Sponsored by DST, India</td>
+        </tr>
+      <tr>
+           <td>10</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Prize</td>
+          <td>DWIH Event - Science Slam Kolkatta-Second Prize Winner at CNN News</td>
+        </tr>
+      <tr>
+           <td>11</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>IEEE IPDPS - Travel Grant Award Recipient (Faculty Section) - 2015</td>
+        </tr>
+      <tr>
+           <td>12</td>
+          <td>Dr. Shajulin Benedict</td>
+          <td>Award</td>
+          <td>IEEE HiPC 2015 - Travel Grant Award Recipient (Faculty Section) - 2015</td>
+        </tr>
+      <tr>
+           <td>13</td>
+          <td>Dr. Bakkyaraj T</td>
+          <td>Award</td>
+          <td>German Language Fellowship at Goethe Institute, Schwabisch Hall, Germany by Alexander Von Humboldt foundation for the period 30.03.2015 to 30.07.2015.</td>
+        </tr>
+      <tr>
+           <td>14</td>
+          <td>Dr. Bakkyaraj T</td>
+          <td>Award</td>
+          <td>Post-Doctoral Fellowship at ICP, University of Stuttgart, Germany 04.08.2015-23.06.2017</td>
+        </tr>
+      <tr>
+           <td>15</td>
+          <td>Dr. Bakkyaraj T</td>
+          <td>Award</td>
+          <td>NBHM Post-Doctoral Fellowship - March 2015.</td>
+        </tr>
+      <tr>
+           <td>16</td>
+          <td>Dr. Bakkyaraj T</td>
+          <td>Award</td>
+          <td>Institute Post-Doctoral Fellowship at IMSc, Taramani, Chennai Jan 2015</td>
+        </tr>
+      <tr>
+           <td>17</td>
+          <td>Dr. Bakkyaraj T</td>
+          <td>Award</td>
+          <td>CSIR - Direct Senior Research Fellowship from April 2013 to December 2014.</td>
+        </tr>
+      <tr>
+           <td>18</td>
+          <td>Dr. Bakkyaraj T</td>
+          <td>Award</td>
+          <td>DST - PURSE Fellowship from August 2010 - March 2013.</td>
+        </tr>
+      <tr>
+           <td>19</td>
+          <td>Dr. Bakkyaraj T</td>
+          <td>Award</td>
+          <td>University Third Rank Holder in M.Sc.- 2007.</td>
+        </tr>
+      <tr>
+           <td>20</td>
+          <td>Dr. Ebin Deni Raj</td>
+          <td>Honour</td>
+          <td>Selected among the top 25 Programmers in IEEE Extreme Programmers League (IXPL) Organized by IEEE at VIT University</td>
+        </tr>
+      <tr>
+           <td>21</td>
+          <td>Dr. Ebin Deni Raj</td>
+          <td>Honour</td>
+          <td>Selected by Alcatel-Lucent (Former Bell Labs, USA) for Project Internship.</td>
+        </tr>
+      <tr>
+           <td>22</td>
+          <td>Dr. Ebin Deni Raj</td>
+          <td>Award</td>
+          <td>Research publication award in the year 2015 and 2016 by VIT University</td>
+        </tr>
+      <tr>
+           <td>23</td>
+          <td>Dr. Ebin Deni Raj</td>
+          <td>Honour</td>
+          <td>Research work featured in news sites such as www.sciencedaily.com, www.phys.org, scienceblog.com, ECN, scientificcomputing.com.</td>
+        </tr>
+      <tr>
+           <td>24</td>
+          <td>Dr. J. V. Bibal Benifa</td>
+          <td>Honour</td>
+          <td>Developed a ‘Prediction System for identifying Rheumatology based on Siddha Medical Concepts’</td>
+        </tr>
+      <tr>
+           <td>25</td>
+          <td>Dr. Panchami V</td>
+          <td>Award</td>
+          <td>Best Teacher Award for the year (2015- 2016) –CSE, Toc H Institute of Science and Technology</td>
+        </tr>
+      <tr>
+           <td>26</td>
+          <td>Dr. Panchami V</td>
+          <td>Award</td>
+          <td>Got NASSCOM award for the ‘Ladies Safety App’</td>
+        </tr>
+      <tr>
+           <td>27</td>
+          <td>Dr. Panchami V</td>
+          <td>Award</td>
+          <td>Secured 2nd position for the paper presentation (CS/IT) in the Techno Cultural Fest Brahma held on 2013</td>
+        </tr>
+      <tr>
+           <td>28</td>
+          <td>Dr. Jaise Jose</td>
+          <td>Award</td>
+          <td>Best Outgoing Student Award at the St. Joseph’s College, Devagiri, Calicut. Kerala – 2009</td>
+        </tr>
+      <tr>
+           <td>29</td>
+          <td>Dr. Arun Cyril Jose</td>
+          <td>Honour</td>
+          <td>Associate Editor for Journal: Communications of the CCISA; Publisher: Chinese Cryptology and Information Security Association (CCISA); Print ISSN: 1729-6056</td>
+        </tr>
+      <tr>
+           <td>30</td>
+          <td>Dr. Arun Cyril Jose</td>
+          <td>Award</td>
+          <td>Awarded University of Pretoria, Postgraduate Doctoral Scholarship from 2014 - 2016 worth R 15,000.</td>
+        </tr>
+      <tr>
+           <td>31</td>
+          <td>Dr. Arun Cyril Jose</td>
+          <td>Award</td>
+          <td>Awarded University of Pretoria, Research Support Bursary from 2014 - 2016 worth R 195,000.</td>
+        </tr>
+      <tr>
+           <td>32</td>
+          <td>Dr. Arun Cyril Jose</td>
+          <td>Award</td>
+          <td>Awarded University of Pretoria, Special International Research Award from 2014 - 2016 worth R 10,400.</td>
+        </tr>
+      <tr>
+           <td>33</td>
+          <td>Dr. Arun Cyril Jose</td>
+          <td>Award</td>
+          <td>Awarded 2017, University of Pretoria, Research Support Bursary for exceptional fourth year PhD student worth Rs. 35,000</td>
+        </tr>
+      <tr>
+           <td>34</td>
+          <td>Dr. P. Victer Paul</td>
+          <td>Award</td>
+          <td>INSPIRE Fellowship Holder, Department of Science and Technology, New Delhi</td>
+        </tr>
+      <tr>
+           <td>35</td>
+          <td>Dr. P. Victer Paul</td>
+          <td>Award</td>
+          <td>Gold Medalist in M.Tech. degree under Pondicherry University in 2011.</td>
+        </tr>
+      <tr>
+           <td>36</td>
+          <td>Dr. P. Victer Paul</td>
+          <td>Award</td>
+          <td>Got “TCS Best Student Award 2010” from the Department of Computer Science, Pondicherry University.</td>
+        </tr>
+      <tr>
+           <td>37</td>
+          <td>Dr. P. Victer Paul</td>
+          <td>Honour</td>
+          <td>University Rank Holder in B.Tech. degree under Pondicherry University in 2007.</td>
+        </tr>
+      <tr>
+           <td>38</td>
+          <td>Dr. P. Victer Paul</td>
+          <td>Honour</td>
+          <td>Guided students to publish 50+ research articles at various International Journals and Conferences (IEEE, Elsevier, Springer).</td>
+        </tr>
+      <tr>
+           <td>39</td>
+          <td>Dr. P. Victer Paul</td>
+          <td>Honour</td>
+          <td>Under my Guidance, students won “Best Solution Award” in TCS Innovate 2016.</td>
+        </tr>
+      <tr>
+           <td>40</td>
+          <td>Dr. P. Victer Paul</td>
+          <td>Honour</td>
+          <td>Under my Guidance, three teams of B.Tech. students progressed up to Pre-Final round of UNYSIS Cloud20-20 2017event (shortlisted among 30 out of 4000+ teams participated).</td>
+        </tr>
+      <tr>
+           <td>41</td>
+          <td>Dr. P. Victer Paul</td>
+          <td>Honour</td>
+          <td>45 students cleared International Certification on “Cloud Infrastructure and Services”, EMC Academic Associate from EMC2 (2014).</td>
+        </tr>
+      <tr>
+           <td>42</td>
+          <td>Dr. Jayakrushna Sahoo</td>
+          <td>Honour</td>
+          <td>Senior Research Fellowship, Department of Mathematics, IIT Kharagpur, India (March 2013-present).</td>
+        </tr>
+      <tr>
+           <td>43</td>
+          <td>Dr. Jayakrushna Sahoo</td>
+          <td>Honour</td>
+          <td>Junior Research Fellowship, Department of Mathematics, IIT Kharagpur, India (December 2010-February 2013).</td>
+        </tr>
+      <tr>
+           <td>44</td>
+          <td>Dr. Jayakrushna Sahoo</td>
+          <td>Award</td>
+          <td>Best oral presentation award on Research Scholars’ Day 2014, Department of Mathematics, Indian Institute of technology Kharagpur.</td>
+        </tr>
+      <tr>
+           <td>45</td>
+          <td>Dr. Jayakrushna Sahoo</td>
+          <td>Award</td>
+          <td>Obtained National Scholarship Scheme 2003-2004, for 2 years 2003-2005.</td>
+        </tr>
+      <tr>
+           <td>46</td>
+          <td>Dr. Jayakrushna Sahoo</td>
+          <td>Award</td>
+          <td>Rank holder in B.Sc. degree.</td>
+        </tr>
+      
+      </tbody></table>
+    <footer style="position: absolute; top:750px">
+        <div class="">
+
+        </div>
+        <div class="socials">
+            <a href="https://twitter.com/IIITKKottayam"><div class="icon"><img src="Pictures/4494475.png" alt="" srcset="" height="35px" width="35px"></div></a>
+            <a href="https://www.facebook.com/IIITKottayamofficial/"><div class="icon"><img src="Pictures/tw.png" alt="" srcset="" height="35px" width="35px"></div></a>
+            <a href="https://www.linkedin.com/in/iiit-kottayam"><div class="icon"><img src="Pictures/linkedin.png" alt="" srcset="" height="35px" width="35px"></div></a>
+            <a href="https://www.youtube.com/channel/UC3jrKDXjl7_c5bld5x8C1vw"><div class="icon"><img src="Pictures/yt.png" alt="" height="35px" width="35px"></div></a>
+        </div>
+        <div class="footerlinks">
+            <div class="ftlinkbox"><a href="administration.html">Administration</a><br><a
+                    href="admission.html">Admission</a><br><a
+                    href="cse.html">B.Tech</a><br><a
+                    href="faculty.html">Faculty</a><br><a
+                    href="facultyrecruitment.html">Faculty Recruitment</a><br><a
+                    href="gallery.html">Gallery</a>
+            </div>
+            <div class="ftlinkbox"><a
+                    href="governance.html">Governance</a><br><a href="https://www.iiitkottayam.ac.in/#!tenders">Tenders</a><br><a
+                    href="hod.html">HOD</a><br><a
+                    href="hostel.html">Hostel</a><br><a
+                    href="innovation.html">Innovation</a><br><a
+                    href="media.html">Media</a><br></div>
+            <div class="ftlinkbox"><a href="mtech.html">M.Tech</a><br><a href="news.html">News</a><br><a
+                    href="placement.html">Placement</a><br><a
+                    href="recruiters.html">Recruiter's Corner</a><br><a
+                    href="security.html">Security</a><br><a
+                    href="studentresearch.html">Student Research</a><br>
+                    </div>
+            <div class="ftlinkbox"><a href="pdf/RTI.pdf">RTI</a><br><a
+                    href="https://scholarships.gov.in/">National Scholarship Portal</a><br><br>
+                <b>GST NO: 32AAAAI9154L1ZJ</b>
+            </div>
+        </div>
+
+
+        <div class="copyright">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#169;
+            IIIT Kottayam 2023 <br><br>Indian Institute of Information Technology Kottayam
+            <br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
+            page was viewed <br><br>
+            <div class="viewcount">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;711899
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;times
+        </div>
+
+
+        </div>
+    </footer>
+
+</body>
+</html>
